@@ -1,0 +1,12 @@
+[Unit]
+Description=OWASP WebGoat, an extremely vulnerable website
+After=network.target
+
+[Service]
+User={{ webgoat_user }}
+Group={{ webgoat_group }}
+Type=simple
+ExecStart=/etc/init.d/webgoat
+
+[Install]
+WantedBy=multi-user.target

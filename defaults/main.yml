@@ -1,0 +1,6 @@
+---
+# defaults file for PeterMosmans.webgoat
+webgoat_base: /var/www/webgoat
+webgoat_group: webgoat
+webgoat_url: https://github.com/WebGoat/WebGoat/releases/download/7.1/webgoat-container-7.1-exec.jar
+webgoat_user: webgoat

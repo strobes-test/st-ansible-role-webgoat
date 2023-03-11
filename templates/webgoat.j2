@@ -1,0 +1,13 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          webgoat
+# Required-Start:
+# Required-Stop:
+# Should-Start:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: Start webgoat
+# Description:       Start webgoat
+### END INIT INFO
+
+cd {{ webgoat_base }} && java -jar webgoat.jar
